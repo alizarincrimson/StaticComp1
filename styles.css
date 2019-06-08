@@ -1,24 +1,23 @@
 body {
-  background-color: #efefef;
   font-family: "Roboto";
   margin: 0px;
+  background-color: #efefef;
 }
-
 
 /*/////header*/
 
 nav {
-  align-items: flex-end;
   background-color: #1C2226;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  display: flex;
   height: 175px;
+  display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .nav-left {
-  padding-left: 5px;
   width: 40%;
+  padding-left: 5px;
 }
 
 .nav-right{
@@ -29,35 +28,36 @@ nav {
 
 .logo-link {
   font-family: "Codystar";
-  font-size: 3.5rem;
-  font-weight: bold;
-  margin: 0px 10px 15px 5px;
-  padding: 15px;
   text-align: right;
   text-decoration: none;
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding: 15px;
+  margin: 0px 10px 15px 5px;
 }
 
 i {
+  width: 20px;
   color: #fff;
   padding: 5px;
-  width: 20px;
 }
 
 ul {
-  display: flex;
   font-family: "Codystar";
   font-size: 1rem;
   font-weight: bold;
+  display: flex;
   justify-content: space-around;
   list-style-type: none;
   padding: 2%;
+
 }
 
 a.nav-links {
   color: #fff;
-  padding: 12px;
   text-align: left;
   text-decoration: none;
+  padding: 12px;
 }
 
 a:visited {
@@ -68,18 +68,18 @@ a:visited {
 /*/////main*/
 
 main {
-  margin: auto;
   max-width: 1250px;
+  margin: auto;
 }
 
 h1 {
-  color: #4c4c4c;
   font-family: "Codystar";
-  font-size: 2rem;
-  font-weight: bold;
   margin: 10px;
   padding: 30px 10px 0px 18px;
+  font-size: 2rem;
+  font-weight: bold;
   text-decoration: underline;
+  color: #4c4c4c;
 }
 
 
@@ -108,105 +108,105 @@ section {
 }
 
 .card-header {
+  text-align: right;
+  padding: 15px;
+  height: 190px;
   color: white;
   display: flex;
   flex-direction: row;
-  height: 190px;
   justify-content: space-between;
-  padding: 15px;
-  text-align: right;
 }
 
 .card1 {
-  background-position: right;
-  background-size: cover;
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), 
   url('images/WarmingTrend.png');
+  background-size: cover;
+  background-position: right;
 }
 
 .card2 {
-  background-position: right;
-  background-size: cover;
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), 
   url('images/CoralWedge.png');
+  background-size: cover;
+  background-position: right;
 }
 
 .card3 {
-  background-position: right;
-  background-size: cover;
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), 
   url('images/Fiesta.png');
+  background-size: cover;
+  background-position: right;
 }
 
 .card4 {
-  background-position: right;
-  background-size: cover;
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), 
   url('images/NatureAbhorsaVacuum.png');
+  background-size: cover;
+  background-position: right;
 }
 
 .card5 {
-  background-position: right;
-  background-size: cover;
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), 
   url('images/SouthernExposure.png');
+  background-size: cover;
+  background-position: right;
 }
 
 .card6 {
-  background-position: right;
-  background-size: cover;
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), 
   url('images/IndianSummer.png');
+  background-size: cover;
+  background-position: right;
 }
 
 .card7 {
-  background-position: right;
-  background-size: cover;
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), 
   url('images/Sentry.png');
+  background-size: cover;
+  background-position: right;
 }
 
 .card8 {
-  background-position: right;
-  background-size: cover;
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), 
   url('images/CorotsMark.png');
+  background-size: cover;
+  background-position: right;
 }
 
 .card9 {
-  background-position: right;
-  background-size: cover;
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), 
   url('images/Basin.png');
+  background-size: cover;
+  background-position: right;
 }
 
 .card10 {
-  background-position: right;
-  background-size: cover;
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), 
   url('images/Mirror.png');
+  background-size: cover;
+  background-position: right;
 }
 
 .card11 {
-  background-position: right;
-  background-size: cover;
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), 
   url('images/RedShift.png');
+  background-size: cover;
+  background-position: right;
 }
 
 .card12 {
-  background-position: right;
-  background-size: cover;
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), 
   url('images/Sesame.png');
+  background-size: cover;
+  background-position: right;
 }
 
 .fave {
-  font-size: .8rem;
-  font-weight: bold;
-  margin:0;
   padding: 0;
+  margin:0;
   width: 50%;
+  font-weight: bold;
+  font-size: .8rem;
 }
 
 .fave-num {
@@ -223,24 +223,24 @@ section {
 }
 
 h4 {
-  font-size: .9rem;
   margin: 0px;
+  font-size: .9rem;
 }
 
 .date {
-  font-size: .75rem; 
-  margin-bottom: 15px;
   margin: 0px;
+  margin-bottom: 15px;
+  font-size: .75rem; 
 }
 
 .link {
-  background-color: lightgray;
-  color: black;
-  display: inline-block;
-  font-size: .8rem;
-  padding: 10px;
-  text-align: center;
   text-decoration: none;
+  color: black;
+  background-color: lightgray;
+  padding: 10px;
+  font-size: .8rem;
+  display: inline-block;
+  text-align: center;
   width: 90%;
 }
 
@@ -297,10 +297,10 @@ h4 {
 
 @media screen and (max-width: 425px) {
   main {
-    align-items: center;
     display: block;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .flex-card {
     width: 33%;
@@ -317,7 +317,8 @@ h4 {
   }
 
   i {
-    color: white; 
     width: 15px;
+    color: white; 
   }
+
 }
